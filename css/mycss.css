@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+
+h1 {
+    font-size: 3.4em !important;
+}
+
+label {
+    margin-right: 10px !important;
+    font-weight: 700 !important;
+    font-size: 22px !important;
+}
+
+body {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.wrapper {
+    color: #000 !important;
+}
+
+:focus {
+    outline-color: transparent !important;
+}
+
+/* BARRA RICERCA */
+
+.inputsearch {
+    height: 27px;
+    padding: 8px 5px;
+    line-height: 1em;
+    font-size: 18px;
+    color: #000;
+    background-color: #d1d1d1;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.bottonesearch {
+    background-color: #12151D;
+}
+
+.formricerca {
+    height: 30px;
+    float: right;
+    margin-top: -10px;
+}
+
+.formricerca .inputsearch {
+    display: none;
+}
+
+.formricerca:hover .inputsearch {
+    display: block;
+}
+
+/* FORM E INPUT */
+
+.inputmio {
+    height: 27px;
+    width: 150px;
+    padding: 8px 8px;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #000;
+    background-color: #d1d1d1;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    font-family: 'Questrial';
+}
+
